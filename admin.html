@@ -24,6 +24,13 @@
       crossorigin="anonymous"
     ></script>
 
+    <style>
+      /* Custom style for the horizontal line */
+      .header-line {
+        border-left: 3px solid white;
+      }
+    </style>
+
     <link rel="stylesheet" href="" />
     <title>Admin Panel</title>
   </head>
@@ -67,8 +74,14 @@
           </a>
         </div>
       </nav>
-      <header class="bg-dark border-bottom">
+
+      <header
+        class="bg-dark border-bottom"
+        style="width: 1300px; height: 50px; border-left: 2px solid white"
+      >
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <div class="header-line me-3"></div>
+
           <div class="container">
             <!-- Logo -->
             <a
@@ -93,7 +106,7 @@
 
             <!-- Collapsible Menu -->
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
+              <!--<ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                   <a href="#" class="nav-link">Home</a>
                 </li>
@@ -106,12 +119,12 @@
                 <li class="nav-item">
                   <a href="#" class="nav-link">Contact</a>
                 </li>
-              </ul>
+              </ul>-->
 
               <!-- Profile or Actions -->
-              <div class="d-flex ms-3">
+              <div class="d-flex ms-auto">
                 <button class="btn btn-primary me-2">Login</button>
-                <button class="btn btn-outline-secondary">Sign Up</button>
+                <button class="btn btn-outline-secondary">Logout</button>
               </div>
             </div>
           </div>
