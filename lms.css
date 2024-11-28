@@ -1,0 +1,54 @@
+body.black {
+  background-color: black;
+  color: white;
+}
+
+body.black .bg-gray-200 {
+  background-color: #333;
+}
+
+body.black .bg-white {
+  background-color: #444;
+}
+
+body.black .bg-gray-100 {
+  background-color: #222;
+}
+
+body.black .bg-blue-500 {
+  background-color: #555;
+}
+
+body.black .text-gray-700 {
+  color: #ccc;
+}
+
+body.black .text-white {
+  color: #ccc;
+}
+
+/* Add custom styles here */
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    width: calc(100% - 20px);
+  }
+}
