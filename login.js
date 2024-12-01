@@ -115,16 +115,6 @@ function login() {
   }
 }
 
-const admin = [
-  {
-    ausername: "raju@gmail.com",
-    apassword: "1234567890",
-    aname: "Raju",
-    aemail: "raju@gmail.com",
-    acourses: ["PYAIDS", "Python"],
-  },
-];
-
 // Admin credentials (hardcoded for this example)
 const admins = [
   {
